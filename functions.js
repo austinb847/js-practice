@@ -22,3 +22,14 @@ var threeTimes = function(num1, num2, num3) {
 
 threeTimes(30, 20, 10);
 
+var divide = function(num1, num2) {
+  return num1 / num2;
+}
+
+divide(30, 20);
+
+var remainder = function(num1, num2) {
+  return num1 % num2;
+}
+
+remainder(30, 20);
