@@ -33,3 +33,13 @@ var remainder = function(num1, num2) {
 }
 
 remainder(30, 20);
+
+var message = function(age, name, food) {
+  return "Users age: " + age + "users name: " + name + "Users favorite food: " + food;
+}
+
+var userAge = prompt("Whats your age?");
+var userName = prompt("Whats your name?");
+var userFood = prompt("Whats your favorite food?");
+
+alert(message(userAge, userName, userFood));
