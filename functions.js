@@ -9,3 +9,16 @@ var sub = function(num1, num2) {
 }
 
 sub(30,20);
+
+var multiply = function(num1, num2){
+  return num1 * num2;
+}
+
+multiply(30,20);
+
+var threeTimes = function(num1, num2, num3) {
+  return num1 * num2 * num3;
+}
+
+threeTimes(30, 20, 10);
+
